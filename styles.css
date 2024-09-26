@@ -10,6 +10,9 @@ body
     color: red;
   }
 }
+img{
+    float:right;
+}
 
 
 
@@ -25,4 +28,15 @@ body
             color: blue;
           }
     }
+    img{
+        float:none;
+        width:100%;
+      }
 }
+@media screen and (max-width: 320px) {
+    body {
+      background-color: yellow;
+      color:black;
+    }
+  }
+  
