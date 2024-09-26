@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body
+{
+ background-color: blue;
+ color:white;
+ a {
+    color: red;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px){
+    body{
+        background-color: red;
+        a {
+            color: blue;
+          }
+    }
+}
